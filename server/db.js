@@ -4,8 +4,8 @@ const { Sequelize } = require('sequelize');
 
 const dbConfig = {
     database: 'dashboard_db',
-    username: 'your_username',
-    password: 'your_password',
+    username: 'postgres',
+    password: '4747',
     host: 'localhost',
     port: 5432,
     dialect: 'postgres',

@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes blink-highlight {
+  0% {
+    background-color: #d1fae5;
+  }
+  50% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #d1fae5;
+  }
+}
+.highlight-row {
+  animation: blink-highlight 1s ease-in-out 2;
+}
+.highlight-card {
+  animation: blink-highlight 1s ease-in-out 2;
+  border-color: #34d399;
+  box-shadow: 0 0 15px rgba(52, 211, 153, 0.5);
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
