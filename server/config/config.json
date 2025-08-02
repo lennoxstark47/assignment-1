@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "your_username",
+    "password": "your_password",
+    "database": "dashboard_db",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "your_username",
+    "password": "your_password",
+    "database": "dashboard_db_test",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "your_username",
+    "password": "your_password",
+    "database": "dashboard_db_production",
+    "host": "localhost",
+    "port": 5432,
+    "dialect": "postgres"
+  }
+}
